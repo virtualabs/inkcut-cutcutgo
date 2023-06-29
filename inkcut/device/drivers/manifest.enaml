@@ -261,6 +261,15 @@ enamldef DriversManifest(PluginManifest):
             protocols = ['hpgl']
             connections = ['serial','qtserial']
 
+        DeviceDriver:
+            manufacturer = 'Cricut'
+            model = 'Maker Champagne'
+            width = '33cm'
+            length = '30cm'
+            protocols = ['gcode']
+            connections = ['serial', 'qtserial']
+
+
 #        DeviceDriver:
 #            manufacturer = 'Vision'
 #            model = ' VE-810 (XD) Engraver (configured)'
